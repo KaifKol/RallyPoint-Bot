@@ -132,7 +132,7 @@ async def on_ready():
     print("Бот готов!")
 
     activity = disnake.Activity(
-        name="RallyPoint",
+        name="your server",
         type=disnake.ActivityType.playing,
     )
     await bot.change_presence(status=disnake.Status.idle, activity=activity)
